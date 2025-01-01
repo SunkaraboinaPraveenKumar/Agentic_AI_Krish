@@ -1,0 +1,62 @@
+INFO     Creating collection
+INFO     Loading knowledge base
+INFO     Reading: https://phi-public.s3.amazonaws.com/recipes/ThaiRecipes.pdf
+INFO     Committed 10 documents
+INFO     Committed 4 documents
+INFO     Added 14 documents to knowledge base
+Started Run: None
+
+ 😎 User : What are all dishes?
+┏━ Message ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                                                                                                  ┃
+┃ What are all dishes?                                                                                                                             ┃
+┃                                                                                                                                                  ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+┏━ Response (14.7s) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                                                                                                  ┃
+┃ Running:                                                                                                                                         ┃
+┃                                                                                                                                                  ┃
+┃  • search_knowledge_base(query=list of all dishes)                                                                                               ┃
+┃                                                                                                                                                  ┃
+┃ Here are some popular Thai dishes:                                                                                                               ┃
+┃                                                                                                                                                  ┃
+┃   1 Pad Thai                                                                                                                                     ┃
+┃   2 Tom Kha Gai                                                                                                                                  ┃
+┃   3 Som Tum (Papaya Salad)                                                                                                                       ┃
+┃   4 Yum Woon Sen Neua (Spicy Beef Glass Noodles Salad)                                                                                           ┃
+┃   5 Gaeng Kiew Wan Goong (Green Curry with Shrimps)                                                                                              ┃
+┃   6 Massaman Gai (Massaman Curry with Chicken and Potatoes)                                                                                      ┃
+┃   7 Tom Yum Goong (Spicy Prawns Soup with Chili Paste)                                                                                           ┃
+┃   8 Gaeng Som Phak Ruam (Sour Curry with Mixed Vegetables)                                                                                       ┃
+┃   9 Khao Niew Dam Piek Maphrao Awn (Black Glutinous Rice Pudding with Young Coconut Flesh)                                                       ┃
+┃  10 Gluai Buat Chi (Bananas in Coconut Milk)                                                                                                     ┃
+┃                                                                                                                                                  ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+ 😎 User : which is most healthiest dish?
+┏━ Message ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                                                                                                  ┃
+┃ which is most healthiest dish?                                                                                                                   ┃
+┃                                                                                                                                                  ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+┏━ Response (10.5s) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                                                                                                  ┃
+┃ Running:                                                                                                                                         ┃
+┃                                                                                                                                                  ┃
+┃  • search_knowledge_base(query=healthiest dish)                                                                                                  ┃
+┃                                                                                                                                                  ┃
+┃ Based on the search results, it seems that Thai cuisine offers a variety of healthy dish options. Some of the dishes mentioned in the search     ┃
+┃ results include:                                                                                                                                 ┃
+┃                                                                                                                                                  ┃
+┃  • Gaeng Som Phak Ruam (Sour Curry with Mixed Vegetables)                                                                                        ┃
+┃  • Gaeng Kiew Wan Goong (Green Curry with Shrimps)                                                                                               ┃
+┃  • Pad Thai Goong Sod (Thai Fried Noodles with Shrimps) These dishes are not only delicious but also offer various health benefits, such as:     ┃
+┃  • High levels of vitamins A, B, and C                                                                                                           ┃
+┃  • Good sources of fiber, protein, and healthy fats                                                                                              ┃
+┃  • Rich in antioxidants and anti-inflammatory compounds                                                                                          ┃
+┃  • Can help support immune function and overall health                                                                                           ┃
+┃                                                                                                                                                  ┃
+┃ It's worth noting that the healthiness of a dish depends on various factors, including the ingredients used, cooking methods, and portion sizes. ┃
+┃ Therefore, it's always a good idea to consult with a healthcare professional or a registered dietitian for personalized nutrition advice.        ┃
+┃                                                                                                                                                  ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+ 😎 User :
